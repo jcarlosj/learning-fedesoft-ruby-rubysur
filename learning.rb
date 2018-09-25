@@ -1,9 +1,17 @@
-# Variables
-name = 'Jessica Jones';
-puts name + ' es un personaje de MARVEL';
-puts "Wow!  \"#{name}\" es una mujer muy fuerte!";
-# ------------------
-manzanas = 4;
-bananos = 2;
-peras = 1;
-puts "#{ name } se comió #{ manzanas + peras + bananos } frutas" ;
+# Conversiones
+var1 = 2
+var2 = '5'
+
+puts var1 .to_s + var2
+# ----------------
+# to_i (parsea a entero)
+# to_s (parsea a cadena)
+# to_f (parsea a decimal)
+puts '15' .to_f
+puts '99.999' .to_f
+puts '99.999' .to_i
+puts '5 es mi número favorito.' .to_i
+puts '¿Quién pregunta acerca de 5 o lo que sea?' .to_i
+puts 'Tu mamá hizo.' .to_f
+puts 'fibroso' .to_s
+puts 3 .to_i
