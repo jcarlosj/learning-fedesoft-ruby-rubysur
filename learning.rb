@@ -1,2 +1,2 @@
-puts '¿Cuántas horas hay en un año?'
-puts 'Rta: ' + (365 * 24) .to_s + ' horas'
+puts '¿Cuántos minutos hay en una década?'
+puts 'Rta: ' + (10 * 365 * 24 * 60) .to_s + ' minutos'
